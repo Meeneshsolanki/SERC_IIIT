@@ -1,0 +1,1 @@
+Fork of a repo is just a copy of our repository, one can fork and try out different chances without harming the main repo.
