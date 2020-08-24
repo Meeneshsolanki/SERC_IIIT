@@ -1,1 +1,1 @@
-Fork of a repo is just a copy of our repository, one can fork and try out different chances without harming the main repo.
+Fork is used to add all the contents of the repository of which the user is not the owner of and can work in that.
