@@ -1,0 +1,73 @@
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+<script>
+function validateForm() {
+  var x = document.forms["Phone Number"].value;
+  if (x == "") {
+    alert("Number must be present");
+    return false;
+  }
+}
+</script>
+  		
+ 
+
+
+ <form>
+  <input type="radio" id="B" name="Choice" value="B">
+  <label for="1">Bachelors</label><br>
+  <input type="radio" id="M" name="Choice" value="M">
+  <label for="2">Masters</label><br>
+
+ 
+
+
+  <label for="fname">Discription</label>
+  <input type="text" id="D" name="Dscription"><br><br>
+
+
+
+ <input type="checkbox" id="Subject Interest " name="Subjects" value="C++">
+  <label for="Subject1"> C++</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="Subject2"> Java</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="Subject3"> Python</label>
+
+
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+
+
+</form> 
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+
+</form>
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+</body>
+</html>
