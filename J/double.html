@@ -1,0 +1,215 @@
+ Logo Jdev
+
+    Java Tutorial
+    Index Posts
+    Interview Questions
+    Resources
+
+    keyboard_arrow_left
+    Previous
+    Next
+    keyboard_arrow_right
+
+Facebook
+Twitter
+WhatsApp
+jQuery Double Click
+1 Comments
+Filed Under: jQuery
+
+    Home » jQuery » jQuery Double Click
+
+jQuery Tutorial
+
+    1. What is jQuery?
+    2. jQuery Hello World
+    3. jQuery document ready
+    4. jQuery addClass
+    5. jQuery fadeIn, fadeOut, fadeTo
+    6. jQuery add
+    7. jQuery after
+    8. jQuery selector
+    9. jQuery select by class
+    10. jQuery select by id
+    11. jQuery select by name
+    12. jQuery animate
+    13. jQuery noConflict
+    14. jQuery stop animation
+    15. jQuery delay
+    16. jQuery attribute manipulation
+    17. jQuery hide, show, toggle
+    18. jQuery dequeue
+    19. jQuery slide up, down, toggle
+    20. jQuery UI Tabs
+    21. HTML5 progress bar
+    22. jQuery event methods
+    23. jQuery click
+    24. jQuery double click
+    25. jQuery mouse events
+    26. jQuery hover
+    27. jQuery keyup
+    28. jQuery keydown
+    29. jQuery keypress
+    30. jQuery resize
+    31. jQuery scroll
+    32. jQuery select
+    33. jQuery submit
+    34. jQuery parent children
+    35. jQuery first last
+    36. jQuery next() prev()
+    37. jQuery siblings()
+    38. jQuery closest()
+    39. jQuery eq()
+    40. jQuery find()
+    41. jQuery each()
+    42. jQuery is()
+    43. jQuery has(), not(), filter()
+    44. jQuery slice
+    45. jQuery end()
+    46. jQueryUI Datepicker
+    47. jQueryUI accordion
+    48. jQueryUI Autocomplete
+    49. jQueryUI progress bar
+    50. jQueryUI dialog
+    51. jQueryUI tooltip
+    52. jQueryUI Menu
+    53. jQuery Popup Overlay
+    54. jQueryUI Button, Buttonset
+    55. How to develop a jQuery Plugin?
+    56. jQuery scroll to top
+    57. jQuery AJAX Java Web Application
+    58. CSS3 Image Gallery with Thumbnail view
+    59. jQuery Image Slider
+    60. jQuery image slider with thumbnail
+    61. jQuery Content Slider with Pagination
+    62. jQuery Image Slider Plugins
+
+jQuery dblclick() function fires when an HTML element is double clicked. This method will attach an event handler to the double click event. We can do desired manipulations on the selected HTML element using the jQuery double click event handler.
+
+Table of Contents [
+hide
+]
+
+    1 jQuery double click
+        1.1 jQuery Double Click Example
+        1.2 jQuery Double Click Demo
+
+jQuery double click
+
+jQuery double click event syntax:
+
+    dblclick()
+
+In this, dblclick() method is used without an argument.
+
+    dblclick(handler)
+
+The handler could be any function that is executed each time the double click event is fired.
+jQuery Double Click Example
+
+Following example demonstrates the use of jQuery dblclick() event method.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Double Click</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("div").dblclick(function(){
+    $( this ).toggleClass("divClass2");
+  });
+});
+</script>
+ 
+<style> 
+.divClass1
+{
+    padding:5px;
+    text-align:center;
+    background-color:yellow;
+    border:solid 1px;
+}
+.divClass2
+{
+    padding:5px;
+    text-align:center;
+    background-color:grey;
+    border:solid 1px;
+}
+</style>
+</head>
+<body>
+<div class="divClass1">JournalDev</div>
+</body>
+</html>
+
+In this example, you can see that dblclick() method is triggered when you double click on the <div> element.
+
+In this method, we pass a handler to change the background color of the <div> element.
+
+The toggleClass() method toggle between the two CSS class defined in the above code. The toggleClass() method executes each time when we double click on the element.
+
+You can see above jQuery example in action by visiting below URL.
+jQuery Double Click Demo
+Facebook
+Twitter
+WhatsApp
+Reddit
+LinkedIn
+Email
+
+    Prev
+
+    jQuery click()
+
+    Next
+
+    jQuery mouseover, mouseenter, mouseup, mousedown, mousemove, mouseleave
+
+Pankaj
+
+I love Open Source technologies and writing about my experience about them is my passion.
+
+Follow Author
+
+Leave a Reply
+
+Your email address will not be published. Required fields are marked *
+
+Comment
+
+Name *
+
+Email *
+
+Newsletter for You
+Logo Jdev
+
+JournalDev is one of the most popular websites for Java, Python, Android, and related technical articles. Our tutorials are regularly updated, error-free, and complete. Every month millions of developers like you visit JournalDev to read our tutorials.
+
+JournalDev was founded by Pankaj Kumar in 2010 to share his experience and learnings with the whole world. He loves Open source technologies and writing on JournalDev has become his passion.
+Most Popular
+
+    Java / Java EE Tutorials
+    Core Java Tutorial
+    Python Tutorials
+    Java Interview Questions
+    Core Java Interview Questions
+    Java Design Patterns
+    Spring Tutorial
+
+Favorite Sites
+
+    AskPython
+    BloggerTipsAndTricks
+    GoLangDocs
+    LinuxForDevices
+    Mkyong
+    VM-Help
+    WP-Design
+
+© 2020 · Privacy Policy · Terms and Conditions · Contact Us · About · Part of JournalDev IT Services Private Limited
+
+ 
